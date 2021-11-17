@@ -1,0 +1,49 @@
+.supplement-list {
+    background-color: #010071;
+
+    .inner-container {
+        padding: 59px 96px 75px 160px;
+        h4 {
+
+            font-size: 28px;
+            color: #ffffff;
+            margin-bottom: 26px;
+            text-align: center;
+        }
+        .supplement-grid {
+            display: grid;
+            grid-template-columns: 417px auto;
+            grid-gap: 150px;
+    
+            .menu-list {
+                ul {
+                    li {
+                        display: grid;
+                        grid-template-columns: 34px auto;
+                        grid-gap: 14px;  
+                        align-items: center; 
+                        margin-bottom: 30px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+
+                        i {
+                            font-size: 36px;
+                            color: #FDE10D;
+                        }
+    
+                        a {
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: #ffffff;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    
+
+}

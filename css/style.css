@@ -1,0 +1,89 @@
+*, body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.main-container .inner-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+header .header-content {
+  justify-content: center;
+  height: 73px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 84px auto;
+  grid-gap: 26px;
+}
+header .header-content h5 {
+  border-left: 1px solid #828282;
+  padding-left: 26px;
+  color: #010071;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.offer-label {
+  background-color: #FFCB2D;
+  height: 32px;
+  line-height: 32px;
+}
+.offer-label p {
+  text-align: center;
+  font-weight: 700;
+  color: #242520;
+  font-size: 14px;
+}
+
+.supplement-list {
+  background-color: #010071;
+}
+.supplement-list .inner-container {
+  padding: 59px 96px 75px 160px;
+}
+.supplement-list .inner-container h4 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 26px;
+  text-align: center;
+}
+.supplement-list .inner-container .supplement-grid {
+  display: grid;
+  grid-template-columns: 417px auto;
+  grid-gap: 150px;
+}
+.supplement-list .inner-container .supplement-grid .menu-list ul li {
+  display: grid;
+  grid-template-columns: 34px auto;
+  grid-gap: 14px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.supplement-list .inner-container .supplement-grid .menu-list ul li:last-child {
+  margin-bottom: 0;
+}
+.supplement-list .inner-container .supplement-grid .menu-list ul li i {
+  font-size: 36px;
+  color: #FDE10D;
+}
+.supplement-list .inner-container .supplement-grid .menu-list ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

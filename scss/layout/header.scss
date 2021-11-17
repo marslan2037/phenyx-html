@@ -1,0 +1,20 @@
+header {
+    .header-content {
+        justify-content: center;
+        height: 73px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 84px auto;
+        grid-gap: 26px;
+        .header-content {
+
+        }
+        h5 {
+            border-left: 1px solid #828282; 
+            padding-left:26px;
+            color: #010071;
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
+}
