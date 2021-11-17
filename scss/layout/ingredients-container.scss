@@ -1,0 +1,60 @@
+.ingredient-container {
+    padding: 93px 110px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 135px;
+    .difference-makers {
+        h1 {
+            color: #010071;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        p {
+            color: #333333;
+            font-weight: 400;
+            line-height: 21px;
+            margin-bottom: 36px;
+        }
+        a {
+            color: #010071;
+        }
+    }
+    .ingredient-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        .first-ingredient {
+            background: url(../images/first-gradient.png);
+        }
+        .second-ingredient {
+            background: url(../images/second-gradient.png);
+        }
+        .third-ingredient {
+            background: url(../images/third-gradient.png);
+        }
+        .forth-ingredient {
+            background: url(../images/forth-gradient.png);
+        }
+        .single-ingredient {
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 335px;
+            height: 226px;
+            padding: 20px 35px;
+            display: grid;
+            grid-template-rows: 1fr auto;
+            grid-gap: 8px;
+            align-items: end;
+            h2 {
+                font-weight: 700;
+                color: #010071;
+                text-transform: uppercase;
+            }
+            p {
+                line-height: 19px;
+                font-weight: 400;            }
+        }
+    }
+}
