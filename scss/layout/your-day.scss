@@ -1,0 +1,75 @@
+.your-day {
+    .grid-section {
+        display: grid;
+        grid-template-columns: 274px auto;
+        grid-gap: 178px;
+        padding: 35px 150px;
+        .offer-section {
+            padding: 0px 85px;
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 34px;
+                color: #010071;
+            }
+            .star-section {
+                margin-bottom: 22px;
+                span {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #010071;
+                }
+            }
+            .menu-list {
+                margin-bottom: 40px;
+                ul {
+                    li {
+                        display: grid;
+                        grid-template-columns: 34px auto;
+                        grid-gap: 14px;  
+                        align-items: center; 
+                        margin-bottom: 30px;
+        
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+        
+                        i {
+                            font-size: 36px;
+                            color: #FDE10D;
+                        }
+        
+                        a {
+                            font-size: 18px;
+                            font-weight: 400;
+                        }
+                        
+                    }
+                }
+            }
+
+            .offer-button {
+                button {
+                    background-color: #FDE10D;
+                    width: 403px;
+                    height: 64px;
+                    border-radius: 9px;
+                    outline: none;
+                    border: none;
+                    color: #010071;
+                    font-size: 17px;
+                    
+                    p {
+                        color:#202C39;
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}

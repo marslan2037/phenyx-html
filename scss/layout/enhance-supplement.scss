@@ -1,0 +1,54 @@
+.enhance-eupplement {
+    background-color: #FAFCFF;
+    .inner-container {
+        padding: 42px 180px;
+        h3 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 41px;
+            span {
+                color: #010071;
+                border-bottom:1px solid #010071;
+            }
+        }
+
+        .enchance-content {
+            text-align: center;
+            .single-item {
+                display: grid;
+                grid-template-columns: 461px 207px 241px;
+                justify-content: center;
+                align-items: center;
+                height: 55px;
+                background-color: #F0F6FFDB;
+                p {
+                    text-align: left;
+                    padding-left:71px ;
+                    color: #010071;
+                    font-size: 21px;
+                    font-weight: 400;
+                }
+                .limits-img {    
+                    background-color: #FDE10D;
+                    border-radius: 10px;
+
+                   
+                }
+                .same-color {
+                    background-color: #FDE10D;
+                }
+                h6 {
+                    color: Dark Blue;
+                    font-size: 16px;
+                    padding-bottom: 10px;
+                }
+            }
+            .first-child {
+                height: 102px;
+            }
+            .same-color {
+                background-color: #fff;
+            }
+        }
+    }
+}

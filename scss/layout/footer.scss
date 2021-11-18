@@ -1,0 +1,32 @@
+footer {
+    .footer-section {
+        padding: 34px 54px 27px 17px;
+        background-color:#F0F6FF;
+        h4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            color: #000000;
+            margin-bottom: 17px;
+        }
+        p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 18px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .card-images {
+            img {
+                margin-right: 10px;
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
