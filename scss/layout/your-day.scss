@@ -4,8 +4,22 @@
         grid-template-columns: 274px auto;
         grid-gap: 178px;
         padding: 35px 150px;
+
+        @media (min-width:320px) and (max-width:767px) {
+            grid-template-columns: auto;
+            padding: 32px 20px;
+            grid-gap: 20px;
+        }
+        .img {
+            @media (min-width:320px) and (max-width:767px) {
+                width: 100%;
+            }
+        }
         .offer-section {
             padding: 0px 85px;
+                @media (min-width:320px) and (max-width:767px) {
+                    padding: 0;
+                }
             h1 {
                 font-family: Montserrat;
                 font-style: normal;
@@ -34,7 +48,10 @@
                         grid-gap: 14px;  
                         align-items: center; 
                         margin-bottom: 30px;
-        
+                        @media (min-width:320px) and (max-width:767px) {
+                            grid-gap: 0;
+                            margin-bottom: 10px;
+                        }
                         &:last-child {
                             margin-bottom: 0;
                         }

@@ -1,7 +1,12 @@
 footer {
+    background-color:#F0F6FF;
     .footer-section {
         padding: 34px 54px 27px 17px;
-        background-color:#F0F6FF;
+    
+        @media (min-width:320px) and (max-width:767px) {
+            text-align: center; 
+            padding: 34px 20px 40px ;   
+        }
         h4 {
             font-family: Roboto;
             font-style: normal;
@@ -10,6 +15,10 @@ footer {
             line-height: 18px;
             color: #000000;
             margin-bottom: 17px;
+
+            @media (min-width:320px) and (max-width:767px) {
+                text-align: center;
+            }
         }
         p {
             font-family: Roboto;

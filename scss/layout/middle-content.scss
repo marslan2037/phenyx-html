@@ -1,12 +1,26 @@
 .middle-content {
     background-color: #F0F7FF;
     padding:49px 84px 151px 100px;
+    @media (min-width:320px) and (max-width:767px) {
+        padding: 0;
+    }
     .slider {
         display: grid;
         grid-template-columns: 461px 521px;
         grid-gap: 140px;
+        @media (min-width:320px) and (max-width:767px) {
+            grid-template-columns: auto;
+        }
         .image-section {
+            div {
+                img {
+
+                }
+            }
             .images-section {
+                @media (min-width:320px) and (max-width:767px) {
+                    display: none;
+                }
                 img {
                     margin-right: 10px;
                     &:last-child {
@@ -15,7 +29,15 @@
                 } 
             }
             .paragraph {
-                
+                @media (min-width:320px) and (max-width:767px) {
+                    display: none;
+                }
+                img {
+                    margin-right: 10px;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                }
                 padding: 29px 16px 20px 35px;
                 width: 455px;
                 height: 209px;
