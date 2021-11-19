@@ -3,6 +3,7 @@
     padding:49px 84px 151px 100px;
     @media (min-width:320px) and (max-width:767px) {
         padding: 0;
+        display: none;
     }
     .slider {
         display: grid;

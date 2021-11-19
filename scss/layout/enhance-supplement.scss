@@ -1,5 +1,8 @@
 .enhance-eupplement {
     background-color: #FAFCFF;
+    @media (min-width:320px) and (max-width:767px) {
+        display: none;
+    }
     .inner-container {
         padding: 42px 180px;
         h3 {

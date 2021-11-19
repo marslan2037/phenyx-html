@@ -2,6 +2,9 @@
     background-color: #fffce6;
     padding: 60px 100px;
     text-align: center;
+    @media (min-width:320px) and (max-width:767px) {
+        display: none;
+    }
     p {
         font-size: 15px;
         font-weight: 400;

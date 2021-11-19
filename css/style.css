@@ -40,6 +40,7 @@ h5 {
 @media (min-width: 320px) and (max-width: 767px) {
   .middle-content {
     padding: 0;
+    display: none;
   }
 }
 .middle-content .slider {
@@ -392,6 +393,7 @@ header .header-content h5 {
 
 .supplement-list {
   background-color: #010071;
+  display: none;
 }
 .supplement-list .inner-container {
   padding: 59px 96px 75px 160px;
@@ -481,6 +483,11 @@ header .header-content h5 {
   background-color: #fffce6;
   padding: 60px 100px;
   text-align: center;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-us {
+    display: none;
+  }
 }
 .about-us p {
   font-size: 15px;
@@ -658,6 +665,7 @@ header .header-content h5 {
   background-color: #FDE10D;
   padding: 90px;
   text-align: center;
+  display: none;
 }
 .twittes-container h1 {
   color: #010071;
@@ -677,6 +685,11 @@ header .header-content h5 {
 
 .enhance-eupplement {
   background-color: #FAFCFF;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .enhance-eupplement {
+    display: none;
+  }
 }
 .enhance-eupplement .inner-container {
   padding: 42px 180px;
