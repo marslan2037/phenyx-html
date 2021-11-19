@@ -3,6 +3,11 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 135px;
+    @media (min-width:320px) and (max-width:767px) {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding: 0 20px;
+    }
     .difference-makers {
         h1 {
             color: #010071;
@@ -25,6 +30,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 20px;
+        @media (min-width:320px) and (max-width:767px) {
+            grid-template-columns: 1fr;
+        }
         .first-ingredient {
             background: url(../images/first-gradient.png);
         }

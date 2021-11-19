@@ -588,6 +588,13 @@ header .header-content h5 {
   grid-template-columns: 1fr auto;
   grid-gap: 135px;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .ingredient-container {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    padding: 0 20px;
+  }
+}
 .ingredient-container .difference-makers h1 {
   color: #010071;
   font-weight: 700;
@@ -608,6 +615,11 @@ header .header-content h5 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .ingredient-container .ingredient-list {
+    grid-template-columns: 1fr;
+  }
 }
 .ingredient-container .ingredient-list .first-ingredient {
   background: url(../images/first-gradient.png);
