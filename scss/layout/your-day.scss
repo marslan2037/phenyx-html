@@ -27,6 +27,9 @@
                 font-size: 28px;
                 line-height: 34px;
                 color: #010071;
+                @media (min-width:320px) and (max-width:767px) {
+                    font-size: 22px;
+                }
             }
             .star-section {
                 margin-bottom: 22px;
@@ -64,6 +67,9 @@
                         a {
                             font-size: 18px;
                             font-weight: 400;
+                            @media (min-width:320px) and (max-width:767px) {
+                                font-size: 13px;
+                            }
                         }
                         
                     }
@@ -80,7 +86,9 @@
                     border: none;
                     color: #010071;
                     font-size: 17px;
-                    
+                    @media (min-width:320px) and (max-width:767px) {
+                        width: 100%;
+                    }
                     p {
                         color:#202C39;
                         font-size: 11px;
