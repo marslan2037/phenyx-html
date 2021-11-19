@@ -4,9 +4,9 @@
     grid-template-columns: 1fr auto;
     grid-gap: 135px;
     @media (min-width:320px) and (max-width:767px) {
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         grid-gap: 0;
-        padding: 0 20px;
+        padding: 10px 20px;
     }
     .difference-makers {
         h1 {
@@ -23,6 +23,10 @@
         }
         a {
             color: #010071;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
         }
     }
     .ingredient-list {
@@ -31,7 +35,7 @@
         grid-template-rows: 1fr 1fr;
         grid-gap: 20px;
         @media (min-width:320px) and (max-width:767px) {
-            grid-template-columns: 1fr;
+            grid-template-columns: auto;
         }
         .first-ingredient {
             background: url(../images/first-gradient.png);
@@ -55,6 +59,10 @@
             grid-template-rows: 1fr auto;
             grid-gap: 8px;
             align-items: end;
+            @media (min-width:320px) and (max-width:767px) {
+                padding: 20px 24px;
+                width: 100%;
+            }
             h2 {
                 font-weight: 700;
                 color: #010071;
@@ -62,7 +70,9 @@
             }
             p {
                 line-height: 19px;
-                font-weight: 400;            }
+                font-weight: 400;
+                font-size: 18px;            
+            }
         }
     }
 }

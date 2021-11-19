@@ -1,6 +1,8 @@
 .supplement-list {
     background-color: #010071;
-    display: none;
+    @media (min-width:320px) and (max-width:767px) {
+        
+    }
     .inner-container {
         padding: 59px 96px 75px 160px;
         h1 {

@@ -393,7 +393,6 @@ header .header-content h5 {
 
 .supplement-list {
   background-color: #010071;
-  display: none;
 }
 .supplement-list .inner-container {
   padding: 59px 96px 75px 160px;
@@ -597,9 +596,9 @@ header .header-content h5 {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .ingredient-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-gap: 0;
-    padding: 0 20px;
+    padding: 10px 20px;
   }
 }
 .ingredient-container .difference-makers h1 {
@@ -616,6 +615,10 @@ header .header-content h5 {
 }
 .ingredient-container .difference-makers a {
   color: #010071;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
 }
 .ingredient-container .ingredient-list {
   display: grid;
@@ -625,7 +628,7 @@ header .header-content h5 {
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .ingredient-container .ingredient-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
   }
 }
 .ingredient-container .ingredient-list .first-ingredient {
@@ -651,6 +654,12 @@ header .header-content h5 {
   grid-gap: 8px;
   align-items: end;
 }
+@media (min-width: 320px) and (max-width: 767px) {
+  .ingredient-container .ingredient-list .single-ingredient {
+    padding: 20px 24px;
+    width: 100%;
+  }
+}
 .ingredient-container .ingredient-list .single-ingredient h2 {
   font-weight: 700;
   color: #010071;
@@ -659,6 +668,7 @@ header .header-content h5 {
 .ingredient-container .ingredient-list .single-ingredient p {
   line-height: 19px;
   font-weight: 400;
+  font-size: 18px;
 }
 
 .twittes-container {
