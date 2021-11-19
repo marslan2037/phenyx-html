@@ -1,21 +1,36 @@
 .supplement-list {
     background-color: #010071;
-    @media (min-width:320px) and (max-width:767px) {
-        
-    }
     .inner-container {
         padding: 59px 96px 75px 160px;
+        @media (min-width:320px) and (max-width:767px) {
+            padding: 20px 20px;
+        }
         h1 {
             font-size: 28px;
             color: #ffffff;
             margin-bottom: 26px;
             text-align: center;
+            @media (min-width:320px) and (max-width:767px) {
+                font-size: 23px;
+                line-height: 30px;
+            }
         }
         .supplement-grid {
             display: grid;
             grid-template-columns: 417px auto;
             grid-gap: 150px;
-    
+            @media (min-width:320px) and (max-width:767px) {
+                grid-template-columns: auto;
+                grid-gap: 0;
+            }
+            .supplement-pic {
+                img {
+                    @media (min-width:320px) and (max-width:767px) {
+                        width: 100%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
             .menu-list {
                 ul {
                     li {
@@ -38,6 +53,10 @@
                             font-size: 18px;
                             font-weight: 400;
                             color: #ffffff;
+                            line-height: 21px;
+                            @media (min-width:320px) and (max-width:767px) {
+                                font-size: 16px;
+                            }
                         }
                         
                     }
