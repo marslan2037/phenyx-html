@@ -15,3 +15,13 @@ h2 {
 h5 {
     font-size: 15px;
 }
+ul.review-stars {
+    height: 21px;
+    li {
+        display: inline-block;
+        a {
+            height: 21px;
+            display: block;
+        }
+    }
+}
