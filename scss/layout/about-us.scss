@@ -15,30 +15,47 @@
         color: #010071;
         text-transform: uppercase;
     }
-    .stars-rating {
+    .stars-section {
         display: grid;
         grid-template-columns: auto auto;
-        grid-gap: 10px;
+        align-items: center;
         justify-content: center;
-        align-items: baseline;
-        ul {
-            li {
-                display: inline-block;
-                width: 14px;
-                height: 14px;
-                background-color: #00b67a;
-                position: relative;
-                i {
-                    color: white;
-                    font-size: 9px;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
+        margin: 0 0 7px;
+        span {
+            font-style: normal;
+            font-weight: normal;
+            // font-size: 15px;
+            line-height: 18px;
+            margin-left: 10px;
+            @media (min-width:320px) and (max-width:767px) {
+                font-size: 14px;
             }
         }
     }
+    // .stars-rating {
+    //     display: grid;
+    //     grid-template-columns: auto auto;
+    //     grid-gap: 10px;
+    //     justify-content: center;
+    //     align-items: baseline;
+    //     ul {
+    //         li {
+    //             display: inline-block;
+    //             width: 14px;
+    //             height: 14px;
+    //             background-color: #00b67a;
+    //             position: relative;
+    //             i {
+    //                 color: white;
+    //                 font-size: 9px;
+    //                 position: absolute;
+    //                 top: 50%;
+    //                 left: 50%;
+    //                 transform: translate(-50%, -50%);
+    //             }
+    //         }
+    //     }
+    // }
     .review-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
